@@ -10,7 +10,7 @@ if st.button("Calculate"):
         res = float(n1) / float(n2)
         st.success(f"Result: {res}")
     except ValueError:
-        st.error("Meaningful Message: Please enter numeric digits only.")
+        st.error("ERROR!: Please enter numeric digits only.")
     except ZeroDivisionError:
         st.error("Meaningful Message: You cannot divide by zero.")
 
